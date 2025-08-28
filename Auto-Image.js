@@ -8,7 +8,7 @@
     PAINTING_SPEED: {
       MIN: 1,          // Minimum 1 pixel batch size
       MAX: 1000,       // Maximum 1000 pixels batch size
-      DEFAULT: 5,      // Default 5 pixels batch size
+      DEFAULT: 1000,      // Default 5 pixels batch size
     },
     BATCH_MODE: "normal", // "normal" or "random" - default to normal
     RANDOM_BATCH_RANGE: {
