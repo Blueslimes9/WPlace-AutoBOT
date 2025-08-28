@@ -10,10 +10,10 @@
       MAX: 1000,       // Maximum 1000 pixels batch size
       DEFAULT: 500,      // Default 5 pixels batch size
     },
-    BATCH_MODE: "normal", // "normal" or "random" - default to normal
+    BATCH_MODE: "random", // "normal" or "random" - default to normal
     RANDOM_BATCH_RANGE: {
-      MIN: 3,          // Random range minimum
-      MAX: 20,         // Random range maximum
+      MIN: 500,          // Random range minimum
+      MAX: 501,         // Random range maximum
     },
     PAINTING_SPEED_ENABLED: true, // Off by default
     AUTO_CAPTCHA_ENABLED: true, // Turnstile generator enabled by default
