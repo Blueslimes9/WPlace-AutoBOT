@@ -10,7 +10,7 @@
       MAX: 1000,       // Maximum 1000 pixels batch size
       DEFAULT: 5,      // Default 5 pixels batch size
     },
-    BATCH_MODE: "random", // "normal" or "random" - default to normal
+    BATCH_MODE: "normal", // "normal" or "random" - default to normal
     RANDOM_BATCH_RANGE: {
       MIN: 1,          // Random range minimum
       MAX: 20,         // Random range maximum
