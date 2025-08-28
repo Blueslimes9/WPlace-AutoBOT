@@ -8,14 +8,14 @@
     PAINTING_SPEED: {
       MIN: 1,          // Minimum 1 pixel batch size
       MAX: 1000,       // Maximum 1000 pixels batch size
-      DEFAULT: 500,      // Default 5 pixels batch size
+      DEFAULT: 5,      // Default 5 pixels batch size
     },
     BATCH_MODE: "random", // "normal" or "random" - default to normal
     RANDOM_BATCH_RANGE: {
-      MIN: 500,          // Random range minimum
-      MAX: 501,         // Random range maximum
+      MIN: 1,          // Random range minimum
+      MAX: 20,         // Random range maximum
     },
-    PAINTING_SPEED_ENABLED: true, // Off by default
+    PAINTING_SPEED_ENABLED: false, // Off by default
     AUTO_CAPTCHA_ENABLED: true, // Turnstile generator enabled by default
     TOKEN_SOURCE: "generator", // "generator", "manual", or "hybrid" - default to generator
     COOLDOWN_CHARGE_THRESHOLD: 1, // Default wait threshold
